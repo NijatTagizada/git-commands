@@ -17,3 +17,16 @@ Add all changes in the next commit
 ```
 git add .
 ```
+
+Unstage a file (keep changes)
+```
+git restore --staged <filename>
+
+// Example
+git restore --staged src/index.html
+```
+
+Unstage all files
+```
+git restore --staged .
+```
