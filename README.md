@@ -55,8 +55,7 @@ Remove ignored file from repository
 git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
 ```
 
-
-Last commit will be remove
+Last commit will be remove (keep changes)
 ```
 git reset --soft HEAD~1
 ```
@@ -66,8 +65,7 @@ Show the working tree status
 git status
 ```
 
-Downloads commits, objects and refs from another repository
+Downloads commits, branch, objects and refs from another repository
 ```
-
 git fetch
 ```
