@@ -32,6 +32,10 @@ Show commit logs short
 ```
 git log --oneline
 ```
+Show commits graphic
+```
+git lg
+```
 
 Unstage a file (keep changes)
 ```
