@@ -11,17 +11,26 @@ Create an empty Git repository or reinitialize an existing one
 git init
 ```
 
-Add all changes in the next commit
-```
-git add .
-```
-
 Clone a repository into a current directory
 ```
 git clone <url>
 
 // Example 
 git clone https://github.com/NijatTagizada/git-commands.git
+```
+
+Add all changes in the next commit
+```
+git add .
+```
+
+Show commit logs
+```
+git log
+```
+Show commit logs short
+```
+git log --oneline
 ```
 
 Unstage a file (keep changes)
