@@ -60,6 +60,15 @@ Last commit will be remove (keep changes)
 git reset --soft HEAD~1
 ```
 
+Revert existing commits with commit hash (Doesn’t change the project history. Doesn't remove commits)
+```
+git revert <commit hash>
+
+// Example
+git revert 9f9069de
+```
+
+
 Show the working tree status
 ```
 git status
