@@ -69,3 +69,25 @@ Downloads commits, branch, objects and refs from another repository
 ```
 git fetch
 ```
+
+Update the local version of a repository from a remote.
+```
+git pull
+```
+
+Upload local repository content to a remote repository
+```
+
+git push
+```
+
+Switch branches or restore working tree files
+```
+
+git checkout branchName
+```
+
+Create the branch on your local machine and switch in this branch ```
+
+git checkout -b branchName
+```
