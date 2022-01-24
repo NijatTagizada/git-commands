@@ -86,17 +86,15 @@ git pull
 
 Upload local repository content to a remote repository
 ```
-
 git push
 ```
 
 Switch branches or restore working tree files
 ```
-
 git checkout branchName
 ```
 
-Create the branch on your local machine and switch in this branch ```
-
+Create the branch on your local machine and switch in this branch 
+```
 git checkout -b branchName
 ```
