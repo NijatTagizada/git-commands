@@ -8,8 +8,6 @@
 
 <img src="https://img.shields.io/badge/20%20command-git-red?style=for-the-badge&logo=git">
 
-</br>
-
 <hr/>
 
 Create an empty Git repository or reinitialize an existing one
