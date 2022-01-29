@@ -84,6 +84,22 @@ Update the local version of a repository from a remote.
 git pull
 ```
 
+Update the current branch from a remote branch
+```
+git pull <remote name> <branch name>
+
+// Example
+git pull origin feature/task
+```
+
+Update the current branch from a local branch
+```
+git pull . <branch name>
+
+// Example
+git pull . feature/task
+```
+
 Upload local repository content to a remote repository
 ```
 git push
