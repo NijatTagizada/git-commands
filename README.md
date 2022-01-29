@@ -4,6 +4,12 @@
     <img alt="Git" src="./img/git_logo.png" height="80" width="192">
 </div>
 
+</br>
+
+<img src="https://img.shields.io/badge/20%20command-git-red?style=for-the-badge&logo=git">
+
+</br>
+
 <hr/>
 
 Create an empty Git repository or reinitialize an existing one
