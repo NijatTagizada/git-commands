@@ -50,25 +50,6 @@ Unstage all files
 git restore --staged .
 ```
 
-Remove ignored file from repository
-```
-git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
-```
-
-Last commit will be remove (keep changes)
-```
-git reset --soft HEAD~1
-```
-
-Revert existing commits with commit hash (Doesn’t change the project history. Doesn't remove commits)
-```
-git revert <commit hash>
-
-// Example
-git revert 9f9069de
-```
-
-
 Show the working tree status
 ```
 git status
@@ -119,4 +100,27 @@ git checkout -b <branch name>
 
 // Example
 git checkout feature/task
+```
+
+List all the remote repositories
+```
+git remote -v
+```
+
+Remove ignored file from repository
+```
+git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
+```
+
+Last commit will be remove (keep changes)
+```
+git reset --soft HEAD~1
+```
+
+Revert existing commits with commit hash (Doesn’t change the project history. Doesn't remove commits)
+```
+git revert <commit hash>
+
+// Example
+git revert 9f9069de
 ```
