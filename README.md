@@ -91,10 +91,16 @@ git push
 
 Switch branches or restore working tree files
 ```
-git checkout branchName
+git checkout <branch name>
+
+// Example
+git checkout feature/task
 ```
 
 Create the branch on your local machine and switch in this branch 
 ```
-git checkout -b branchName
+git checkout -b <branch name>
+
+// Example
+git checkout feature/task
 ```
