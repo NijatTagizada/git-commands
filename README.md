@@ -162,10 +162,10 @@ them later on.
 git stash
 ```
 
-Reapply previously stashed changes
+Apply the same stashed changes to multiple branches
 ```
 
-git stash pop
+git stash apply
 ```
 
 View a summary of a stash
