@@ -129,3 +129,53 @@ git revert <commit hash>
 // Example
 git revert 9f9069de
 ```
+
+Switch branches or restore working tree files
+```
+git checkout branchName
+```
+
+Create the branch on your local machine and switch in this branch 
+```
+
+git checkout -b branchName
+```
+
+Creates a new Git repository
+```
+
+git init
+```
+
+Adding a remote repository
+```
+
+git remote add origin https://github.com/yourprofile/repo.git
+```
+
+Git stash temporarily shelves (or stashes) changes
+you've made to your working copy so you can work
+on something else, and then come back and re-apply 
+them later on.
+```
+
+git stash
+```
+
+Apply the same stashed changes to multiple branches
+```
+
+git stash apply
+```
+
+View a summary of a stash
+```
+
+git stash show
+```
+
+Delete all of your stashes
+```
+
+git stash clear
+```
