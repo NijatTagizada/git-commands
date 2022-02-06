@@ -4,6 +4,10 @@
     <img alt="Git" src="./img/git_logo.png" height="80" width="192">
 </div>
 
+</br>
+
+<img src="https://img.shields.io/badge/20%20command-git-red?style=for-the-badge&logo=git">
+
 <hr/>
 
 Create an empty Git repository or reinitialize an existing one
@@ -50,25 +54,6 @@ Unstage all files
 git restore --staged .
 ```
 
-Remove ignored file from repository
-```
-git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
-```
-
-Last commit will be remove (keep changes)
-```
-git reset --soft HEAD~1
-```
-
-Revert existing commits with commit hash (Doesn’t change the project history. Doesn't remove commits)
-```
-git revert <commit hash>
-
-// Example
-git revert 9f9069de
-```
-
-
 Show the working tree status
 ```
 git status
@@ -84,20 +69,63 @@ Update the local version of a repository from a remote.
 git pull
 ```
 
-Upload local repository content to a remote repository
+Update the current branch from a remote branch
+```
+git pull <remote name> <branch name>
+
+// Example
+git pull origin feature/task
 ```
 
+Update the current branch from a local branch
+```
+git pull . <branch name>
+
+// Example
+git pull . feature/task
+```
+
+Upload local repository content to a remote repository
+```
 git push
 ```
 
 Switch branches or restore working tree files
 ```
+git checkout <branch name>
 
-git checkout branchName
+// Example
+git checkout feature/task
 ```
 
 Create the branch on your local machine and switch in this branch 
 ```
+git checkout -b <branch name>
 
-git checkout -b branchName
+// Example
+git checkout feature/task
+```
+
+List all the remote repositories
+```
+git remote -v
+```
+
+Remove ignored file from repository
+```
+git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
+```
+
+Last commit will be remove (keep changes)
+```
+git reset --soft HEAD~1
+```
+
+Revert existing commits with commit hash (Doesn’t change the project history. Doesn't remove commits)
+
+```
+git revert <commit hash>
+
+// Example
+git revert 9f9069de
 ```
