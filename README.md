@@ -130,17 +130,6 @@ git revert <commit hash>
 git revert 9f9069de
 ```
 
-Switch branches or restore working tree files
-```
-git checkout branchName
-```
-
-Create the branch on your local machine and switch in this branch 
-```
-
-git checkout -b branchName
-```
-
 Creates a new Git repository
 ```
 
