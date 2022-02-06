@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/20%20command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/26%26command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 
@@ -103,7 +103,7 @@ Create the branch on your local machine and switch in this branch
 git checkout -b <branch name>
 
 // Example
-git checkout feature/task
+git checkout -b feature/task
 ```
 
 List all the remote repositories
