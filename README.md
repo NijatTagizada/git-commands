@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/26%26command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/25%25command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 
@@ -128,12 +128,6 @@ git revert <commit hash>
 
 // Example
 git revert 9f9069de
-```
-
-Creates a new Git repository
-```
-
-git init
 ```
 
 Adding a remote repository
