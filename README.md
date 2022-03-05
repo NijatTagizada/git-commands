@@ -160,3 +160,8 @@ git remote prune origin
 
 git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 ```
+
+Number of commits per author on all branches
+```
+git shortlog -s -n --all --no-merges
+```
