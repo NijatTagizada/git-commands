@@ -151,6 +151,7 @@ git remote add origin https://github.com/yourprofile/repo.git
 
 ## Stash
 </br>
+
 Git stash temporarily shelves (or stashes) changes
 you've made to your working copy so you can work
 on something else, and then come back and re-apply 
@@ -182,6 +183,11 @@ git remote prune origin
 
 git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 ```
+
+<hr/>
+
+## Others
+</br>
 
 Number of commits per author on all branches
 ```
