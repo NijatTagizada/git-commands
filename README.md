@@ -36,10 +36,6 @@ Show commit logs short
 ```
 git log --oneline
 ```
-Show commits graphic
-```
-git lg
-```
 
 Unstage a file (keep changes)
 ```
@@ -132,7 +128,6 @@ git revert 9f9069de
 
 Adding a remote repository
 ```
-
 git remote add origin https://github.com/yourprofile/repo.git
 ```
 
@@ -141,24 +136,27 @@ you've made to your working copy so you can work
 on something else, and then come back and re-apply 
 them later on.
 ```
-
 git stash
 ```
 
 Apply the same stashed changes to multiple branches
 ```
-
 git stash apply
 ```
 
 View a summary of a stash
 ```
-
 git stash show
 ```
 
 Delete all of your stashes
 ```
-
 git stash clear
+```
+
+Remove tracking branches no longer on remote
+```
+git remote prune origin
+
+git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 ```
