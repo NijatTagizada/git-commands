@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/26%20command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/25%20command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 
@@ -35,10 +35,6 @@ git log
 Show commit logs short
 ```
 git log --oneline
-```
-Show commits graphic
-```
-git lg
 ```
 
 Unstage a file (keep changes)
