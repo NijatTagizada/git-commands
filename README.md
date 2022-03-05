@@ -9,6 +9,10 @@
 <img src="https://img.shields.io/badge/26%20command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
+</br>
+
+## Initialize
+</br>
 
 Create an empty Git repository or reinitialize an existing one
 ```
@@ -28,6 +32,11 @@ Add all changes in the next commit
 git add .
 ```
 
+<hr/>
+
+## Logs
+</br>
+
 Show commit logs
 ```
 git log
@@ -37,18 +46,8 @@ Show commit logs short
 git log --oneline
 ```
 
-Unstage a file (keep changes)
-```
-git restore --staged <filename>
+<hr/>
 
-// Example
-git restore --staged src/index.html
-```
-
-Unstage all files
-```
-git restore --staged .
-```
 
 Show the working tree status
 ```
@@ -112,6 +111,11 @@ Remove ignored file from repository
 git ls-files -z --ignored --exclude-standard | xargs -0 git rm --cached
 ```
 
+<hr/>
+
+## Reset, Revert, Restore
+</br>
+
 Last commit will be remove (keep changes)
 ```
 git reset --soft HEAD~1
@@ -126,11 +130,27 @@ git revert <commit hash>
 git revert 9f9069de
 ```
 
+Unstage a file (keep changes)
+```
+git restore --staged <filename>
+
+// Example
+git restore --staged src/index.html
+```
+
+Unstage all files
+```
+git restore --staged .
+```
+
 Adding a remote repository
 ```
 git remote add origin https://github.com/yourprofile/repo.git
 ```
+<hr/>
 
+## Stash
+</br>
 Git stash temporarily shelves (or stashes) changes
 you've made to your working copy so you can work
 on something else, and then come back and re-apply 
@@ -153,6 +173,8 @@ Delete all of your stashes
 ```
 git stash clear
 ```
+
+<hr/>
 
 Remove tracking branches no longer on remote
 ```
