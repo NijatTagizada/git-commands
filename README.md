@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/25%20command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/26%20command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 
