@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/25%20command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/26%20command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 
@@ -159,4 +159,9 @@ Remove tracking branches no longer on remote
 git remote prune origin
 
 git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
+```
+
+Number of commits per author on all branches
+```
+git shortlog -s -n --all --no-merges
 ```
