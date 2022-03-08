@@ -6,7 +6,7 @@
 
 </br>
 
-<img src="https://img.shields.io/badge/26%20command-git-red?style=for-the-badge&logo=git">
+<img src="https://img.shields.io/badge/27%20command-git-red?style=for-the-badge&logo=git">
 
 <hr/>
 </br>
@@ -192,4 +192,9 @@ git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -
 Number of commits per author on all branches
 ```
 git shortlog -s -n --all --no-merges
+```
+
+Show changes between commits, commit and working 
+```
+git diff
 ```
