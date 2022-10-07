@@ -165,3 +165,8 @@ Number of commits per author on all branches
 ```
 git shortlog -s -n --all --no-merges
 ```
+
+Number of lines changed in the current working directory:
+```
+git diff --stat
+```
